@@ -1,0 +1,140 @@
+*{
+  font-family: "Josefin Sans";
+}
+
+/* Prevent horizontal scrollbar */
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  padding-top: 90px; /* adjust to match navbar height */
+}
+
+/* *************************************** */
+
+/* BELOW CODE FOR NAVBAR */
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.navbar{
+  background-color: #f8f8f8 !important;
+  z-index: 1030 !important;
+}
+
+/* Navbar Brand Logo */
+.brand-logo {
+  height: 60px;   /* Increase size */
+  width: auto;    /* Keeps aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .brand-logo {
+    height: 50px; /* Slightly smaller on mobile */
+  }
+}
+
+/* ***************************************** */
+
+/* Custom Nav Links */
+.custom-nav .nav-link {
+  font-size: 18px;                /* Increase size */
+  color: rgb(9, 26, 36) !important; /* Dark custom color */
+  margin-left: 30px;              /* Space between links */
+  transition: color 0.3s ease;
+}
+
+.custom-nav .nav-link:hover {
+  color: #ff5600 !important;       /* Hover effect */
+}
+/* ***************************************** */
+
+/* Order Online Button */
+.order-btn {
+  border: 2px solid #ff5600;
+  color: #ff5600;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #ff5600;
+  color: white;
+  border-color: #ff5600;
+}
+/* ************************************* */
+
+/* NAVBAR CODE ENDS HERE */
+
+/* BELOW CODE IS FOR HOME */
+
+/* src/assets/Restaurant_Template/imgi_14_h1_hero.png */
+
+/* Hero Section Background */
+.hero-section {
+  background: url("src/assets/Restaurant_Template/imgi_14_h1_hero.png") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden; /* Fix hero-section overflow caused by animation */
+}
+
+/* Content on Left Side */
+.hero-content {
+  max-width: 600px;
+}
+
+/* Small orange text */
+.hero-subtitle {
+  color: #ff5600;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 15px; /* bigger */
+}
+
+/* Big Heading */
+.hero-title {
+  font-size: 75px;  /* increased */
+  font-weight: 800;
+  color: #212025;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+/* Gray text */
+.hero-text {
+  color: #212025;
+  font-size: 20px; /* bigger */
+  margin-bottom: 30px;
+}
+
+/* Reservation Button */
+.hero-btn {
+  background-color: #ff5600;
+  color: #fff;
+  padding: 16px 40px; /* bigger button */
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px; /* bigger font */
+  transition: all 0.10s ease;
+  text-decoration: none;
+}
+.hero-btn:hover {
+  background-color: #ff5600;
+  color: #fff;
+}
+
+/* Infinite animation */
+@keyframes fadeSlide {
+  0% { opacity: 0; transform: translateX(-20px); }
+  50% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 0; transform: translateX(20px); }
+}
+
+.animate-text {
+  animation: fadeSlide 6s infinite;
+}
