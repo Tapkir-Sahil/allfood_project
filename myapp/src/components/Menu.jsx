@@ -76,7 +76,7 @@ const Menu = () => {
       },
       {
         id: 2,
-        image: "/Restaurant_Template/imgi_17_gallery2.png",
+        image: "/Restaurant_Template/imgi_6_blog3.png",
         price: "$18",
         title: "Healthy Salad",
         desc: "Lorem ipsum dolor sit amet.",
@@ -90,7 +90,7 @@ const Menu = () => {
       },
       {
         id: 4,
-        image: "/Restaurant_Template/imgi_17_gallery2.png",
+        image: "/Restaurant_Template/imgi_6_blog3.png",
         price: "$15",
         title: "Tasty Soup",
         desc: "Sed do eiusmod tempor incididunt.",
@@ -99,7 +99,7 @@ const Menu = () => {
     dinner: [
       {
         id: 1,
-        image: "/Restaurant_Template/imgi_17_gallery2.png",
+        image: "/Restaurant_Template/imgi_4_blog1.png",
         price: "$25",
         title: "Delicious Food",
         desc: "Ut enim ad minim veniam quis nostr.",
@@ -120,7 +120,7 @@ const Menu = () => {
       },
       {
         id: 4,
-        image: "/Restaurant_Template/imgi_17_gallery2.png",
+        image: "/Restaurant_Template/imgi_4_blog1.png",
         price: "$15",
         title: "Tasty Soup",
         desc: "Sed do eiusmod tempor incididunt.",
