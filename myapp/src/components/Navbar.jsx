@@ -5,7 +5,7 @@ const Navbar = () => {
         {/* Brand Logo */}
         <a className="navbar-brand" href="/">
           <img
-            src="src/assets/Restaurant_Template/imgi_1_logo.png"
+            src="./Restaurant_Template/imgi_1_logo.png"
             alt="All Food"
             className="brand-logo"
           />

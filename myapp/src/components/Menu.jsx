@@ -9,28 +9,28 @@ const Menu = () => {
     special: [
       {
         id: 1,
-        image: "src/assets/Restaurant_Template/imgi_17_gallery2.png",
+        image: "src/assets/Restaurant_Template/imgi_4_blog1.png",
         price: "$25",
         title: "Delicious Food",
         desc: "Ut enim ad minim veniam quis nostr.",
       },
       {
         id: 2,
-        image: "src/assets/Restaurant_Template/imgi_17_gallery2.png",
+        image: "src/assets/Restaurant_Template/imgi_6_blog3.png",
         price: "$18",
         title: "Healthy Salad",
         desc: "Lorem ipsum dolor sit amet.",
       },
       {
         id: 3,
-        image: "src/assets/Restaurant_Template/imgi_17_gallery2.png",
+        image: "src/assets/Restaurant_Template/imgi_5_blog2.png",
         price: "$22",
         title: "Italian Pasta",
         desc: "Consectetur adipiscing elit.",
       },
       {
         id: 4,
-        image: "src/assets/Restaurant_Template/imgi_17_gallery2.png",
+        image: "src/assets/Restaurant_Template/imgi_4_blog1.png",
         price: "$15",
         title: "Tasty Soup",
         desc: "Sed do eiusmod tempor incididunt.",
@@ -46,7 +46,7 @@ const Menu = () => {
       },
       {
         id: 2,
-        image: "src/assets/Restaurant_Template/imgi_17_gallery2.png",
+        image: "src/assets/Restaurant_Template/imggallery.png",
         price: "$18",
         title: "Healthy Salad",
         desc: "Lorem ipsum dolor sit amet.",
@@ -60,7 +60,7 @@ const Menu = () => {
       },
       {
         id: 4,
-        image: "src/assets/Restaurant_Template/imgi_17_gallery2.png",
+        image: "src/assets/Restaurant_Template/imggallery.png",
         price: "$15",
         title: "Tasty Soup",
         desc: "Sed do eiusmod tempor incididunt.",
