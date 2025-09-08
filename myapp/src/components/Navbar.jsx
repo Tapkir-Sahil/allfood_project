@@ -43,7 +43,7 @@ const Navbar = () => {
               <a className="nav-link" href="/contact">Contact</a>
             </li>
             <li className="nav-item ms-lg-3 mt-2 mt-lg-0">
-              <a className="btn order-btn px-4 py-2 rounded" href="/order">
+              <a className="btn ordernav-btn px-4 py-2 rounded" href="/order">
                 Order Online
               </a>
             </li>

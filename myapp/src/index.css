@@ -54,14 +54,14 @@ body {
 /* ***************************************** */
 
 /* Order Online Button */
-.order-btn {
+.ordernav-btn {
   border: 2px solid #ff5600;
   color: #ff5600;
   background-color: transparent;
   transition: all 0.3s ease;
 }
 
-.order-btn:hover {
+.ordernav-btn:hover {
   background-color: #ff5600;
   color: white;
   border-color: #ff5600;
