@@ -174,7 +174,7 @@ body {
 
 /* Hero Section Below About */
 .about-menu-hero {
-  background: url("src/assets/Restaurant_Template/imgi_15_section_bg01.png") no-repeat center center/cover;
+  background: url("/Restaurant_Template/imgi_15_section_bg01.png") no-repeat center center/cover;
   height: 400px;
   position: relative;
   display: flex;
@@ -369,7 +369,7 @@ body {
 /* ============================= */
 
 .book-table-section {
-  background: url("src/assets/Restaurant_Template/imgi_20_section_bg04.png")
+  background: url("/Restaurant_Template/imgi_20_section_bg04.png")
     no-repeat center center/cover;
    min-height: 500px;   
   display: flex;
