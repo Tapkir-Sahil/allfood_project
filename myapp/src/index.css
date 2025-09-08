@@ -317,3 +317,112 @@ body {
 .order-btn:hover {
   background-color: #e94e00;
 }
+
+
+/* ============================= */
+/* About Restaurant Inside Menu  */
+/* ============================= */
+
+.about-restaurant-subtitle {
+  color: #ff5600;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.about-restaurant-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #212025;
+}
+
+.about-restaurant-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.7;
+}
+
+.about-restaurant-btn {
+  background-color: #fff;
+  border: 1px solid #e94e00;
+  color: #666;
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.about-restaurant-btn:hover {
+  background-color: #ff5600;
+  color: #fff;
+}
+
+
+/* Form for booking */
+
+/* ============================= */
+/* Book A Table Section          */
+/* ============================= */
+
+.book-table-section {
+  background: url("src/assets/Restaurant_Template/imgi_20_section_bg04.png")
+    no-repeat center center/cover;
+   min-height: 500px;   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;  
+}
+
+.book-subtitle {
+  color: #ff5600;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.book-title {
+  color: #212025;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.book-form {
+  background: #fff;
+  padding: 70px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.book-form .form-control {
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+.book-form .form-control:focus {
+  border-color: #ff5600;
+  box-shadow: 0 0 0 0.2rem rgba(255, 86, 0, 0.25);
+}
+
+.book-btn {
+  background-color: #ff5600;
+  color: #fff;
+  padding: 12px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #e94e00;
+  transform: translateY(-2px);
+}
