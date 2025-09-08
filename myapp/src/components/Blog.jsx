@@ -5,19 +5,19 @@ const Blog = () => {
     {
       id: 1,
       image: "/Restaurant_Template/imgi_6_blog3.png",
-      date: "23 DEC, 2020",
+      date: "08 SEP, 2025",
       title: "Addiction When Food Plate Becomes",
     },
     {
       id: 2,
       image: "/Restaurant_Template/imgi_5_blog2.png",
-      date: "23 DEC, 2020",
+      date: "08 SEP, 2025",
       title: "Addiction When Food Plate Becomes",
     },
     {
       id: 3,
       image: "/Restaurant_Template/imgi_4_blog1.png",
-      date: "23 DEC, 2020",
+      date: "08 SEP, 2025",
       title: "Addiction When Food Plate Becomes",
     },
   ];
