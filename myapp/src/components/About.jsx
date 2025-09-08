@@ -17,19 +17,19 @@ const About = () => {
 
               <div className="row g-3 mt-4">
                 <div className="col-6 d-flex align-items-center">
-                  <img src="src/assets/icons/chef.png" alt="icon1" className="about-icon me-2" />
+                  <img src="/icons/chef.png" alt="icon1" className="about-icon me-2" />
                   <span>Best Chefs</span>
                 </div>
                 <div className="col-6 d-flex align-items-center">
-                  <img src="src/assets/icons/food-safety.png" alt="icon2" className="about-icon me-2" />
+                  <img src="/icons/food-safety.png" alt="icon2" className="about-icon me-2" />
                   <span>Fresh Ingredients</span>
                 </div>
                 <div className="col-6 d-flex align-items-center">
-                  <img src="src/assets/icons/platter.png" alt="icon3" className="about-icon me-2" />
+                  <img src="/icons/platter.png" alt="icon3" className="about-icon me-2" />
                   <span>Quality Meals</span>
                 </div>
                 <div className="col-6 d-flex align-items-center">
-                  <img src="src/assets/icons/tray.png" alt="icon4" className="about-icon me-2" />
+                  <img src="/icons/tray.png" alt="icon4" className="about-icon me-2" />
                   <span>Fast Delivery</span>
                 </div>
               </div>
@@ -38,7 +38,7 @@ const About = () => {
             {/* RIGHT SIDE IMAGE */}
             <div className="col-lg-6 text-center">
               <img
-                src="src/assets/Restaurant_Template/imgi_2_about.png"
+                src="/Restaurant_Template/imgi_2_about.png"
                 alt="About"
                 className="img-fluid rounded"
               />
