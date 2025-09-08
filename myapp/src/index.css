@@ -172,19 +172,18 @@ body {
   height: 40px;
 }
 
-
-.menu-hero-section {
+/* Hero Section Below About */
+.about-menu-hero {
   background: url("src/assets/Restaurant_Template/imgi_15_section_bg01.png") no-repeat center center/cover;
-  height: 400px; /* adjust as needed */
+  height: 400px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* color: #212025; */
 }
 
-.menu-hero-section::before {
+.about-menu-hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -194,12 +193,12 @@ body {
   z-index: 0;
 }
 
-.menu-hero-section .container {
+.about-menu-hero .container {
   position: relative;
-  z-index: 1; /* ensure text is above overlay */
+  z-index: 1;
 }
 
-.menu-subtitle {
+.about-menu-subtitle {
   color: #ff5600;
   font-weight: 600;
   text-transform: uppercase;
@@ -207,7 +206,7 @@ body {
   margin-bottom: 10px;
 }
 
-.menu-title {
+.about-menu-title {
   color: #212025;
   font-size: 60px;
   font-weight: 700;
@@ -215,14 +214,106 @@ body {
 }
 
 @media (max-width: 768px) {
-  .menu-title {
+  .about-menu-title {
     font-size: 28px;
   }
-  .menu-subtitle {
+  .about-menu-subtitle {
     font-size: 14px;
   }
 }
 
 
+/* MENU SECTION */
 
-/* About section ends */
+/* Category Buttons */
+.menu-btn {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 8px 15px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.menu-btn.active,
+.menu-btn:hover {
+  color: #ff5600;
+}
+
+.menu-btn.active::after {
+  content: "";
+  display: block;
+  margin: 5px auto 0;
+  width: 50%;
+  height: 3px;
+  background-color: #ff5600;
+  border-radius: 5px;
+}
+
+/* Food Card */
+.menu-card {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.menu-card img {
+  transition: transform 0.3s ease;
+}
+
+.menu-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Overlay Text */
+.menu-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.menu-card:hover .menu-overlay {
+  opacity: 1;
+}
+
+.menu-price {
+  color: #ff5600;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.menu-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.menu-desc {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 12px;
+}
+
+.order-btn {
+  background-color: #ff5600;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #e94e00;
+}
