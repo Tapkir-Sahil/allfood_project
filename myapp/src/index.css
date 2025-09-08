@@ -76,7 +76,7 @@ body {
 
 /* Hero Section Background */
 .hero-section {
-  background: url("./Restaurant_Template/imgi_14_h1_hero.png") no-repeat center center/cover;
+  background: url("public/Restaurant_Template/imgi_14_h1_hero.png") no-repeat center center/cover;
   height: 100vh;
   position: relative;
   overflow-x: hidden; /* Fix hero-section overflow caused by animation */
