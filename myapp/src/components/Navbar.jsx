@@ -1,15 +1,17 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3 fixed-top">
       <div className="container">
         {/* Brand Logo */}
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           <img
             src="./Restaurant_Template/imgi_1_logo.png"
             alt="All Food"
             className="brand-logo"
           />
-        </a>
+        </Link>
 
         {/* Mobile toggle */}
         <button
@@ -28,31 +30,30 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto align-items-lg-center custom-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/">Home</a>
+              <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">About</a>
+              <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/menu">Menu</a>
+              <Link className="nav-link" to="/menu">Menu</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/blog">Blog</a>
+              <Link className="nav-link" to="/blog">Blog</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">Contact</a>
+              <Link className="nav-link" to="/contact">Contact</Link>
             </li>
             <li className="nav-item ms-lg-3 mt-2 mt-lg-0">
-              <a className="btn ordernav-btn px-4 py-2 rounded" href="/order">
+              <Link className="btn ordernav-btn px-4 py-2 rounded" to="/order">
                 Order Online
-              </a>
+              </Link>
             </li>
           </ul>
-
         </div>
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
