@@ -1,5 +1,13 @@
+import About from './About'
+import Blog from './Blog'
+import Menu from './Menu'
+import ScrollTop from './ScrollTop'
+import Services from './Services'
+
+
 const Home = ()=>{
   return(
+    <>
     <section className="hero-section">
       <div className="container h-100">
         <div className="row h-100 align-items-center">
@@ -18,7 +26,13 @@ const Home = ()=>{
         </div>
       </div>
     </section>
-    
+
+    <About/>
+    <Menu/>
+    <Services/>
+    <Blog/>
+    <ScrollTop/>
+    </>
   )
 }
 
