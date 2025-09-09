@@ -1,5 +1,7 @@
 // /Restaurant_Template/imgi_6_blog3.png
 
+import About from "./About";
+
 const Blog = () => {
   const blogs = [
     {
@@ -23,6 +25,7 @@ const Blog = () => {
   ];
 
   return (
+    <> 
     <section className="blog-section py-5 mt-5">
       <div className="container text-center">
         {/* Heading */}
@@ -49,6 +52,7 @@ const Blog = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

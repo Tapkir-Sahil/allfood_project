@@ -1,3 +1,4 @@
+import Menu from "./Menu";
 const About = () => {
   return (
     <>
@@ -56,6 +57,8 @@ const About = () => {
           </h2>
         </div>
       </section>
+
+      <Menu/>
     </>
   );
 };

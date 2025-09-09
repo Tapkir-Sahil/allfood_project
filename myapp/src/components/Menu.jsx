@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Services from "./Services";
 const Menu = () => {
   const [activeCategory, setActiveCategory] = useState("special");
 
@@ -254,6 +255,7 @@ const Menu = () => {
         </div>
       </section>
 
+      <Services/>
 
     </>
   );

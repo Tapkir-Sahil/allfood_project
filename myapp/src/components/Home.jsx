@@ -28,8 +28,6 @@ const Home = ()=>{
     </section>
 
     <About/>
-    <Menu/>
-    <Services/>
     <Blog/>
     <ScrollTop/>
     </>
