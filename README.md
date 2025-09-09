@@ -42,10 +42,10 @@ The project has been customized and structured with modern React practices, incl
 ### 🏠 Homepage  
 ![Homepage Screenshot](/myapp/public/screenshots/Screenshot1.png)  
 
-### 📄 About Page  
+### 📄 Offered Menu
 ![About Screenshot](myapp/public/screenshots/Screenshot2.png)  
 
-### 📞 Contact Page  
+### 📞 Book A Table
 ![Contact Screenshot](myapp/public/screenshots/Screenshot3.png)  
 
 ---
@@ -55,7 +55,6 @@ The project has been customized and structured with modern React practices, incl
 1. Clone the repository  
    ```bash
    git clone https://github.com/Tapkir-Sahil/allfood_project
-   cd your-repo-name
 
 
 ## ⚙️ Install dependencies
@@ -64,34 +63,38 @@ The project has been customized and structured with modern React practices, incl
 - 🔹 npm run dev.
 - 🔹 http://localhost:5173/.
 
-## 📌 Project Structure
+## 📂 Project Structure
 
+```
 allfood-project/
-│── public/
-│   ├── icons/               # Static icons
-│   ├── restaurant_template/ # Template assets (images, etc.)
-│   ├── screenshots/         # Project screenshots for README
-│
-│── src/
-│   ├── assets/              # Images, fonts, static files (importable in React)
-│   │   ├── images/
-│   │
-│   ├── components/          # Reusable UI components          
-│   │   ├── Home/            # Page-level components
-│   │   │   └── Home.jsx
-│   │   ├── About/
-│   │   │   └── About.jsx
-│   │   ├── Contact/
-│   │   │   └── Contact.jsx
-│   │   └── Menu/
-│   │       └── Menu.jsx
-│   │
-│   ├── index.css
-│   ├── App.jsx              # Main App with Router
-│   ├── main.jsx             # React entry point
-│
-│── index.html
-│── .gitignore
-│── package.json
-│── README.md
-│── vite.config.js
+
+│── 📂 public/
+│ ├── 📂 icons/ # Static icons
+│ ├── 📂 restaurant_template/ # Template assets (images, etc.)
+│ ├── 📂 screenshots/ # Project screenshots for README
+
+│── 📂 src/
+│ ├── 📂 assets/ # Images, fonts, static files (importable in React)
+│ │ ├── 📂 images/
+
+│ ├── 📂 components/ # Reusable UI components
+│ │ ├── 📂 Home/ # Page-level components
+│ │ │ └── 📄 Home.jsx
+│ │ ├── 📂 About/
+│ │ │ └── 📄 About.jsx
+│ │ ├── 📂 Contact/
+│ │ │ └── 📄 Contact.jsx
+│ │ └── 📂 Menu/
+│ │ └── 📄 Menu.jsx
+
+│ ├── 🎨 index.css
+│ ├── 📄 App.jsx # Main App with Router
+│ ├── 📄 main.jsx # React entry point
+
+│── 📄 index.html
+│── 📄 .gitignore
+│── 📄 package.json
+│── 📄 README.md
+│── ⚙️ vite.config.js
+
+```
