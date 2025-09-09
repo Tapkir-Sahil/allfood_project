@@ -23,7 +23,7 @@ The project has been customized and structured with modern React practices, incl
 - **React 18+**  
 - **React Router DOM** for navigation  
 - **Vite** for fast development build  
-- **CSS / Bootstrap **  
+- **CSS / Bootstrap**  
 - **Deployment:** Vercel  
 
 ---
